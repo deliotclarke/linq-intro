@@ -59,6 +59,7 @@ namespace LinqIntro
             };
 
             double mostExpensive = prices.OrderByDescending(x => x).ToList()[0];
+            double mostExpensive2 = prices.Max();
 
 
             // Store each number in the following List until a perfect square is detected
